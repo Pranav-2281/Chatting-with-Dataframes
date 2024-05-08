@@ -51,19 +51,19 @@ This web application, developed using the Streamlit framework, is designed to en
 - Navigate to the 'openai settings' in our application.
 - Enter your API Key. We use the `GPT-4-0125-preview` model, so please ensure your API Key is compatible with this version. For more details or if you encounter any issues, visit the OpenAI [official website](https://platform.openai.com).
  
-![](picture/api_key.png)
+![](web_info/picture/api_key.png)
 
 ## Selecting a Dataset
 
 - Go to 'selecting dataset' and choose the dataset you wish to analyze. Currently, we only support the NYCTLC dataset.
 
-![](picture/dataset.png)
+![](web_info/picture/dataset.png)
 
 ## Ask Questions
 
 - Once set up, feel free to ask any questions you have about the data!
 
-![](picture/chatbot.png)
+![](web_info/picture/chatbot.png)
 
 We hope you find this tool useful, and we’re here to help with any questions you might have.
 
