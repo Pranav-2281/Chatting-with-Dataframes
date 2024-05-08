@@ -2,7 +2,13 @@
 
 A Package to Chat with Polars/DuckDB Dataframes
 
+## Introduction
+
+`chatdf` is a Python package designed to provide an intuitive, chat-based interface for interacting with datasets using the Polars and DuckDB libraries. The goal is to simplify data operations and queries by allowing users to input natural language commands that the system translates into SQL queries or DataFrame operations. This tool aims to make data analytics more accessible and user-friendly, especially for those who may not be comfortable with traditional programming approaches.
+
 ## Installation
+
+Install `chatdf` using pip:
 
 ```bash
 $ pip install chatdf
@@ -10,11 +16,29 @@ $ pip install chatdf
 
 ## Usage
 
-- TODO
+Here are some basic examples of how to use chatdf to perform data operations:
+
+### Example 1: Load Data
+```python
+from chatdf import DataLoader
+
+# Load data from a path
+df = DataLoader.load("path/to/your/data.parquet")
+```
+
+### Example 2: Query Data using Natural Language
+```python
+from chatdf import ChatQuery
+
+# Initialize the chat query interface
+chat = ChatQuery(df)
+
+# Perform a query using natural language
+result = chat.query("show me sales greater than $500")
+```
 
 ## Chatbot
-
-[Web version](https://chatbotpy-5rvjgceuhzisrfymppycmw.streamlit.app)
+Visit our web application to interact with chatdf through a user-friendly chat interface: [Web version](https://chatbotpy-5rvjgceuhzisrfymppycmw.streamlit.app)
 
 ![App](web_info/picture/app.png)
 
