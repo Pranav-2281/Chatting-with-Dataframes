@@ -50,6 +50,10 @@ This web application, developed using the Streamlit framework, is designed to en
 
 Currently, the application supports predefined datasets. We are actively working on expanding its capabilities to include user-uploaded and customizable datasets, which will significantly enhance the application’s utility and flexibility.
 
+## Architecture
+
+Below is a diagram illustrating the architecture of chatdf. This helps in understanding how different components of the package interact with each other:
+
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
