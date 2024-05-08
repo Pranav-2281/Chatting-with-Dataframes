@@ -53,6 +53,7 @@ Currently, the application supports predefined datasets. We are actively working
 ## Architecture
 
 Below is a diagram illustrating the architecture of chatdf. This helps in understanding how different components of the package interact with each other:
+![Flowchart](web_info/picture/Flowchart.png)
 
 ## Contributing
 
